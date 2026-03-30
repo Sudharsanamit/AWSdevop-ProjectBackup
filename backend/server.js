@@ -8,9 +8,9 @@ app.use(express.json());
 
 // CHANGE PASSWORD HERE
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "1234", // ← from installation
+    host: "my-db.cc9e40y8ou5u.us-east-1.rds.amazonaws.com",
+    user: "admin",
+    password: "StrongPassword123",
     database: "feedback_app",
     port: 3306
 });
